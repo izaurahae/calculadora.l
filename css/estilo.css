@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Luckiest+Guy&family=Orbitron&family=Righteous&family=Saira+Condensed:wght@300&display=swap');
+
+body{
+    font-family:'Saira Condensed', sans-serif;
+    background-color: #000000;
+    color:#ddf50b;
+}
+.container{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+    max-width: 900px;
+    background: #080707;
+   
+}
+.notainput {
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10PX;
+    font-size: 16px;
+    text-align: center;
+    border-radius:5px;
+    min-width: 200px;
+  }
+  #bnt{
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius:5px;
+    background-color: #2133d3;
+    padding: 10px;
+    color:white;
+    border-color: white;
+    cursor: pointer;
+    display: block;
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+  }
+ 
+  

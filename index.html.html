@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <title>Calculadora Média</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kick's School</h1>
+        <h2>Calculadora de Média</h2>
+        
+        <div class="notas">
+            <p>Insira seu nome completo e suas notas para saber sua média e situação de aprovação.</p>
+
+            <div class="nome">
+                <input type="text" placeholder=" Seu Nome Completo" id="nome" class="notainpt"><br>
+            </div>
+
+            <input type="number" placeholder="Nota 1° bim" id="b1" class="notainpt" step="0.25" min="0" max="10">
+
+            <input type="number" class="notainpt" placeholder="Nota 2° bim" id="b2" step="0.25" min="0" max="10">
+
+            <input type="number" class="notainpt" placeholder="Nota 3° bim" id="b3" step="0.25" min="0" max="10">
+
+            
+            <button id="bnt" onclick="calcular()">Calcular</button>
+
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+
+        <div id="resp">
+            <p></p>
+        </div>
+
+    </div>
+
+    <script src="js/calculo.js"></script>
+    
+    
+</body>
+
+</html>
